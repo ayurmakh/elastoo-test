@@ -90,12 +90,6 @@ export default class Home extends Vue {
   private getDataSourceByValue!: (value: string) => DataSource;
 
   @Action
-  private setLinearChartsCount!: (value: number) => void;
-
-  @Action
-  private setPieChartsCount!: (value: number) => void;
-
-  @Action
   private setChartType!: (value: number) => void;
 
   @Action

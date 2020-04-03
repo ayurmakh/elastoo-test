@@ -6,9 +6,6 @@ import { LinearChartDataSource, Chart, PieChartDataSource } from '@/types';
 
 export const actions: ActionTree<any, any> = {
 
-    setLinearChartsCount: ({ commit }, value: number) => commit('SET_LINEAR_CHARTS_COUNT', value),
-    setPieChartsCount: ({ commit }, value: number) => commit('SET_PIE_CHARTS_COUNT', value),
-    setCreateChartWindowFlag: ({ commit }, value: boolean) => commit('SET_CREATE_CHART_WINDOW_FLAG', value),
     setChartType: ({ commit }, value: number) => commit('SET_CHART_TYPE', value),
     setDataSource: ({ commit }, value: number) => commit('SET_DATA_SOURCE', value),
 
