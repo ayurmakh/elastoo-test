@@ -1,0 +1,6 @@
+ export default {
+    LINEAR_CHART_TYPE: 1,
+    PIE_CHART_TYPE: 2,
+    LINEAR_CHART_TYPE_DATA_SOURCE: 1,
+    PIE_CHART_TYPE_DATA_SOURCE: 2,
+};
